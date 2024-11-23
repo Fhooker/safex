@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="account_username"
+        android:title="Username"
+        android:summary="Set your account username"
+        android:dialogTitle="Enter your username" />
+
+    <EditTextPreference
+        android:key="account_password"
+        android:title="Password"
+        android:summary="Set your account password"
+        android:dialogTitle="Enter your password"
+        android:inputType="textPassword" />
+
+    <CheckBoxPreference
+        android:key="notifications"
+        android:title="Enable Notifications"
+        android:summary="Receive notifications for account events" />
+
+</PreferenceScreen>
